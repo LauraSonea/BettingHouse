@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Game>
+    <Id>83c6bee1-39a7-446b-a92e-1e19a853c85c</Id>
+    <GameType>HorseRace</GameType>
+    <Teams>
+      <Team>
+        <Id>528c94cf-1426-41af-9b11-27425518b1ad</Id>
+        <Name>BlackLuck</Name>
+        <GameType>HorseRace</GameType>
+      </Team>
+      <Team>
+        <Id>8716d3ad-5148-4586-8d6e-dff50da30250</Id>
+        <Name>Roibu</Name>
+        <GameType>HorseRace</GameType>
+      </Team>
+      <Team>
+        <Id>528c94cf-1426-41af-9b11-27425518b1ad</Id>
+        <Name>BlackLuck</Name>
+        <GameType>HorseRace</GameType>
+      </Team>
+      <Team>
+        <Id>6ac339d3-0c48-447f-8fd7-e08d2e8da6bd</Id>
+        <Name>8Ball</Name>
+        <GameType>HorseRace</GameType>
+      </Team>
+      <Team>
+        <Id>6ac339d3-0c48-447f-8fd7-e08d2e8da6bd</Id>
+        <Name>8Ball</Name>
+        <GameType>HorseRace</GameType>
+      </Team>
+    </Teams>
+    <Cote>
+      <decimal>2</decimal>
+      <decimal>3</decimal>
+      <decimal>2</decimal>
+      <decimal>2</decimal>
+      <decimal>2</decimal>
+    </Cote>
+    <PlayDate>2016-05-12T16:36:49.3507555+03:00</PlayDate>
+  </Game>
+</ArrayOfGame>

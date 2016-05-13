@@ -1,0 +1,16 @@
+[
+  {
+    "Id": "0b091cf1-2fad-4266-8b3a-843c2548ac9c",
+    "Name": "admin",
+    "Balance": 0.0,
+    "IsAdmin": true,
+    "BetHistory": []
+  },
+  {
+    "Id": "fd0a1baa-fd95-4d72-bcce-80a8b42986b6",
+    "Name": "John",
+    "Balance": 5000.0,
+    "IsAdmin": false,
+    "BetHistory": []
+  }
+]

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Id>0b091cf1-2fad-4266-8b3a-843c2548ac9c</Id>
+    <Name>admin</Name>
+    <Balance>0</Balance>
+    <IsAdmin>true</IsAdmin>
+    <BetHistory />
+  </Customer>
+  <Customer>
+    <Id>fd0a1baa-fd95-4d72-bcce-80a8b42986b6</Id>
+    <Name>John</Name>
+    <Balance>5000</Balance>
+    <IsAdmin>false</IsAdmin>
+    <BetHistory />
+  </Customer>
+</ArrayOfCustomer>
