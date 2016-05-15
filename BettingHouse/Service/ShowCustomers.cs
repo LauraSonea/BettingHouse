@@ -93,7 +93,12 @@ namespace BettingHouse.Service
             }
             else
             {
-                clientService.ShowPlaceBetInterface(menu, clientLogged);
+                while (!isPharsed)
+                {
+                    UIDecoration.Dialog("Select a game to place your bet on");
+                    isPharsed = UIDecoration.Menu(menu, "Sorry you don't have a option with that index", 1, Data.Data.Games.Count + 1, out menuSelection);
+                }
+                clientService.ShowPlaceBetInterface(menuSelection, clientLogged);
             }
         }
         private void ShowAdminMenu(Customer admin)
@@ -105,6 +110,7 @@ namespace BettingHouse.Service
             menu.Add("Insert Games");
             menu.Add("List All Customers Bets");
             menu.Add("Change the House Trashhold");
+            menu.Add("Validate game result");
             menu.Add("Back to Customer Lists");
 
             while (!isPharsed)
@@ -119,9 +125,12 @@ namespace BettingHouse.Service
                     adminService.ShowAllBets();
                     break;
                 case 3:
-                    //ChangeHouseTrashhold();
+                    adminService.ChangeHouseTreshhold();
                     break;
                 case 4:
+                    adminService.ValidateGames();
+                    break;
+                case 5:
                     ShowCustomersList();
                     break;
             }

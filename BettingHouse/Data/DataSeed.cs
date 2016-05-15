@@ -9,7 +9,7 @@ namespace BettingHouse.Data
 
         public static void Seeding()
         {
-
+            
             InitCustomers();
             InitTeams();
             InitGames();
@@ -67,10 +67,15 @@ namespace BettingHouse.Data
         }
         public static void InitBetHouse()
         {
-            BetHouse newBetHouse = new BetHouse();
-            newBetHouse.Name = "House777";
-            newBetHouse.Balance = 100000m;
-            newBetHouse.Treshhold = 0.5m;
+            if (House == null)
+                {
+                House = new BetHouse();
+            }
+            
+            House.Name = "House777";
+            House.Balance = 100000m;
+            House.Treshhold = 0.5m;
+           
         }
     }
 }

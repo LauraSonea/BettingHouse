@@ -10,8 +10,15 @@ namespace BettingHouse.Models
     {
         public string Name { get; set; }
         public decimal Balance { get; set; }
-        public decimal Treshhold { get; set; }
-        public decimal MoneyAvailable{ get; set; }
+        public decimal Treshhold { get; set; }  
         public decimal ValueOfActiveBets { get; set; }
+
+        public decimal MoneyAvailable
+        { get
+            {
+                return Treshhold * Balance;
+            }
+        }
+
     }
 }

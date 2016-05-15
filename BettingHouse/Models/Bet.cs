@@ -14,9 +14,6 @@ namespace BettingHouse.Models
         public Game Game { get; set; }
         public Team Team { get; set; }
         public decimal Amount { get; set; }
-        public DateTime DateSubmited { get; set; }
-        public DateTime DateDue { get; set; }
-        public GameOutcome GameOutcome { get; set; }
         public bool IsWinner { get; set; }
         public decimal Cota { get; set; }
         public decimal PotentialOutcome { get; set; }

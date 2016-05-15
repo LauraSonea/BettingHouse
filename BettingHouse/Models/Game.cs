@@ -14,7 +14,8 @@ namespace BettingHouse.Models
         public List<Team> Teams { get; set; }
         public Team Winner { get; set; }
         public List<decimal> Cote { get; set; }        
-        public DateTime PlayDate { get; set; }
+        public bool isValidated { get; set; }
+        public bool isFinish { get; set; }
 
         
     }
